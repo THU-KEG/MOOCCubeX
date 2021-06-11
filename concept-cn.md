@@ -50,16 +50,16 @@
 
 ## relations/concept-problem.txt
 
-[概念](#entities/concept.json)相关[问题](./course.md#entities/problem.json)。 格式为`{概念ID}\t{问题ID}`。
+[概念](#entities/concept.json)相关[问题](./course-cn.md#entities/problem.json)。 格式为`{概念ID}\t{问题ID}`。
 
 ## relations/concept-video.txt
 
-[概念](#entities/concept.json)相关[视频](./course.md#entities/video.json)。 格式为`{概念ID}\t{ccid}`。
+[概念](#entities/concept.json)相关[视频](./course-cn.md#entities/video.json)。 格式为`{概念ID}\t{ccid}`。
 
 ## relations/concept-comment.txt
 
-[概念](#entities/concept.json)相关用户[评论](./user.md#entities/comment.json)。 格式为`{概念ID}\t{评论ID}`。
+[概念](#entities/concept.json)相关用户[评论](./user-cn.md#entities/comment.json)。 格式为`{概念ID}\t{评论ID}`。
 
 ## relations/concept-problem.txt
 
-[概念](#entities/concept.json)相关课程习题中的[问题](./course.md#problem)。 格式为`{概念ID}\t{问题ID}`。
+[概念](#entities/concept.json)相关课程习题中的[问题](./course-cn.md#problem)。 格式为`{概念ID}\t{问题ID}`。

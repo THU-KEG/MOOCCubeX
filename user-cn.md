@@ -12,7 +12,7 @@
 
 ## entities/comment.json
 
-课程[资源](./course.md#resource)的[评论](#comment)。 每一条数据为一个用户对一个[资源](./course.md#resource)的一次[评论](#comment)。 域如下表所示。
+课程[资源](./course-cn.md#resource)的[评论](#comment)。 每一条数据为一个用户对一个[资源](./course-cn.md#resource)的一次[评论](#comment)。 域如下表所示。
 
 | field | description |
 | ----- | ----------- |
@@ -32,12 +32,12 @@
 
 ### Comment
 
-每个[资源](./course.md#resource)可有多条评论，每条评论即一个用户对该资源的一次评论， 可在`relations/resource-comment.json`中可根据`V_`开头的`video_id`或`Ex_`
+每个[资源](./course-cn.md#resource)可有多条评论，每条评论即一个用户对该资源的一次评论， 可在`relations/resource-comment.json`中可根据`V_`开头的`video_id`或`Ex_`
 开头的`exercise_id`找到对应的评论的`comment_id`。 评论的具体内容可根据该`comment_id`在`entities/comment.json`中找到。
 
 ## relations/course-comment.txt
 
-[课程](./course.md#entities/course.json)相关[用户评论](#comment)。 格式为`{课程ID}\t{评论ID}`。
+[课程](./course-cn.md#entities/course.json)相关[用户评论](#comment)。 格式为`{课程ID}\t{评论ID}`。
 
 ## relations/user-comment.txt
 
@@ -49,7 +49,7 @@
 
 ## relations/comment-reply.txt
 
-[概念](./concept.md#entities/concept.json)相关[评论回复](#entities/reply.json)。 格式为`{概念ID}\t{回复ID}`。
+[概念](./concept-cn.md#entities/concept.json)相关[评论回复](#entities/reply.json)。 格式为`{概念ID}\t{回复ID}`。
 
 用户所发评论与回评论的链接表。
 
