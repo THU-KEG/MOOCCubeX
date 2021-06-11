@@ -33,7 +33,7 @@
 
 ### Exercise
 
-每组习题(`exercise`)对应多个问题([`problem`](#entities/problem.json))。 具体的对应关系可在`relations/exercise-problem.json`中找到每个`exercise`
+每组习题(`exercise`)对应多个问题([`problem`](#entitiesproblemjson))。 具体的对应关系可在`relations/exercise-problem.json`中找到每个`exercise`
 对应的`problem_id`。
 
 ## entities/video.json
@@ -50,7 +50,7 @@
 
 ## entities/problem.json
 
-课程包含的[习题](#exercise)具体内容。 注意，每组习题([`exercise`](#exercise))对应多个问题([`problem`](#entities/problem.json))。 域如下表所示。
+课程包含的[习题](#exercise)具体内容。 注意，每组习题([`exercise`](#exercise))对应多个问题([`problem`](#entitiesproblemjson))。 域如下表所示。
 
 | field | description |
 | ----- | ----------- |
@@ -103,15 +103,15 @@
 
 ## relations/course-school.txt
 
-[课程](#entities/course.json)的开课[学校](#entities/school.json)。 格式为`{课程ID}\t{学校ID}`。
+[课程](#entitiescoursejson)的开课[学校](#entitiesschooljson)。 格式为`{课程ID}\t{学校ID}`。
 
 ## relations/course-teacher.txt
 
-[课程](#entities/course.json)的开课[教师](#entities/teacher.json)。 格式为`{课程ID}\t{教师ID}`。
+[课程](#entitiescoursejson)的开课[教师](#entitiesteacherjson)。 格式为`{课程ID}\t{教师ID}`。
 
 ## relations/exercise-problem.txt
 
-一组[习题](#exercise)包含的[问题](#entities/problem.json)。 格式为`{习题ID}\t{问题ID}`。
+一组[习题](#exercise)包含的[问题](#entitiesproblemjson)。 格式为`{习题ID}\t{问题ID}`。
 
 ## relations/video_id-ccid.txt
 

@@ -37,19 +37,19 @@
 
 ## relations/course-comment.txt
 
-[课程](./course-cn.md#entities/course.json)相关[用户评论](#comment)。 格式为`{课程ID}\t{评论ID}`。
+[课程](./course-cn.md#entitiescoursejson)相关[用户评论](#comment)。 格式为`{课程ID}\t{评论ID}`。
 
 ## relations/user-comment.txt
 
-[用户](#entities/user.json)的[评论](#entities/comment.json)。 格式为`{用户ID}\t{评论ID}`。
+[用户](#entitiesuserjson)的[评论](#entitiescommentjson)。 格式为`{用户ID}\t{评论ID}`。
 
 ## relations/user-reply.txt
 
-[用户](#entities/user.json)的[评论回复](#entities/reply.json)。 格式为`{用户ID}\t{回复ID}`。
+[用户](#entitiesuserjson)的[评论回复](#entitiesreplyjson)。 格式为`{用户ID}\t{回复ID}`。
 
 ## relations/comment-reply.txt
 
-[概念](./concept-cn.md#entities/concept.json)相关[评论回复](#entities/reply.json)。 格式为`{概念ID}\t{回复ID}`。
+[概念](./concept-cn.md#entitiesconceptjson)相关[评论回复](#entitiesreplyjson)。 格式为`{概念ID}\t{回复ID}`。
 
 用户所发评论与回评论的链接表。
 

@@ -6,7 +6,7 @@
 | ----- | ----------- |
 | id | 概念ID，格式为`K_{概念名}_{所属领域}` |
 | name | 概念名，保证与ID中概念名相同 |
-| context | 概念在[部分维基/百度百科、知乎问答](#entities/other.json)中出现的上下文（前后50个自字符）。此字符串保证包含概念名。 |
+| context | 概念在[部分维基/百度百科、知乎问答](#entitiesotherjson)中出现的上下文（前后50个自字符）。此字符串保证包含概念名。 |
 
 ## entities/other.json
 
@@ -26,7 +26,7 @@
 | field | description |
 | ----- | ----------- |
 | id | 论文ID，无实际意义 |
-| concept | 关联[概念](#entities/concept.json)ID |
+| concept | 关联[概念](#entitiesconceptjson)ID |
 | abstract | 论文摘要 |
 | authors | 论文作者的object，包含作者ID和姓名 |
 | doi | [DOI标识](https://www.doi.org/) |
@@ -42,24 +42,24 @@
 
 ## relations/concept-other.txt
 
-[概念](#entities/concept.json)相关[课外资源](#entities/other.json)。 格式为`{概念ID}\t{资源ID}`。
+[概念](#entitiesconceptjson)相关[课外资源](#entitiesotherjson)。 格式为`{概念ID}\t{资源ID}`。
 
 ## relations/concept-paper.txt
 
-[概念](#entities/concept.json)相关[论文](#entities/paper.json)。 格式为`{概念ID}\t{论文ID}`。
+[概念](#entitiesconceptjson)相关[论文](#entitiespaperjson)。 格式为`{概念ID}\t{论文ID}`。
 
 ## relations/concept-problem.txt
 
-[概念](#entities/concept.json)相关[问题](./course-cn.md#entities/problem.json)。 格式为`{概念ID}\t{问题ID}`。
+[概念](#entitiesconceptjson)相关[问题](./course-cn.md#entitiesproblemjson)。 格式为`{概念ID}\t{问题ID}`。
 
 ## relations/concept-video.txt
 
-[概念](#entities/concept.json)相关[视频](./course-cn.md#entities/video.json)。 格式为`{概念ID}\t{ccid}`。
+[概念](#entitiesconceptjson)相关[视频](./course-cn.md#entitiesvideojson)。 格式为`{概念ID}\t{ccid}`。
 
 ## relations/concept-comment.txt
 
-[概念](#entities/concept.json)相关用户[评论](./user-cn.md#entities/comment.json)。 格式为`{概念ID}\t{评论ID}`。
+[概念](#entitiesconceptjson)相关用户[评论](./user-cn.md#entitiescommentjson)。 格式为`{概念ID}\t{评论ID}`。
 
 ## relations/concept-problem.txt
 
-[概念](#entities/concept.json)相关课程习题中的[问题](./course-cn.md#problem)。 格式为`{概念ID}\t{问题ID}`。
+[概念](#entitiesconceptjson)相关课程习题中的[问题](./course-cn.md#problem)。 格式为`{概念ID}\t{问题ID}`。
