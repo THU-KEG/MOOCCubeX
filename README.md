@@ -2,7 +2,7 @@
 
 [Paper](https://lfs.aminer.cn/misc/moocdata/publications/mooccubex.pdf) | [中文版](./README-cn.md)
 
-MOOCCubeX is maintained by the the Knowledge Engineering Group of Tsinghua Univerisity, and supported by [XuetangX](https://www.xuetangx.com/), one of the largest MOOC websites in China. This repository consists of 4, 216 courses, 230, 263 videos, 358, 265 exercises, 637, 572 fine-grained concepts and over 296 million raw behavioral data of 3, 330, 294 students, for supporting the research topics on adaptive learning in MOOCs. 
+MOOCCubeX is maintained by the the Knowledge Engineering Group of Tsinghua Univerisity, and supported by [XuetangX](https://www.xuetangx.com/), one of the largest MOOC websites in China. This repository consists of 4,216 courses, 230,263 videos, 358,265 exercises, 637,572 fine-grained concepts and over 296 million raw behavioral data of 3,330,294 students, for supporting the research topics on adaptive learning in MOOCs. 
 
 We summarize the contributions of MOOCCubeX as follows:
 
@@ -15,6 +15,7 @@ We summarize the contributions of MOOCCubeX as follows:
 * The prerequisite relations of mathematics, psychology and Computer science are refined !!
 * Our paper is submitted to CIKM2021 resource track !!
 * The MOOCCubeX Dataset Builder toolkit is updated !!
+* Our paper is accepted by CIKM2021 resource track !!
 
 ## Repository Framework
 
@@ -96,8 +97,23 @@ MOOCCubeX has some statistical features of its concepts and behavirol data.
 
 ## Reference
 
-* To be submitted to arxiv.
-
+```
+@inproceedings{10.1145/3459637.3482010,
+author = {Yu, Jifan and Wang, Yuquan and Zhong, Qingyang and Luo, Gan and Mao, Yiming and Sun, Kai and Feng, Wenzheng and Xu, Wei and Cao, Shulin and Zeng, Kaisheng and Yao, Zijun and Hou, Lei and Lin, Yankai and Li, Peng and Zhou, Jie and Xu, Bin and Li, Juanzi and Tang, Jie and Sun, Maosong},
+title = {MOOCCubeX: A Large Knowledge-Centered Repository for Adaptive Learning in MOOCs},
+year = {2021},
+isbn = {9781450384469},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3459637.3482010},
+doi = {10.1145/3459637.3482010},
+pages = {4643–4652},
+numpages = {10},
+keywords = {open-access datasets, concept extraction, adaptive learning},
+location = {Virtual Event, Queensland, Australia},
+series = {CIKM '21}
+}
+```
 
 
 
