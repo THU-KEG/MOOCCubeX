@@ -2,7 +2,7 @@
 
 [论文](https://lfs.aminer.cn/misc/moocdata/publications/mooccubex.pdf) | [English](./README.md)
 
-MOOCCubeX由清华大学知识实验室维护，并得到中国最大的MOOC网站之一[学堂在线](www.xuetangx.com)的支持。本资源库包括4，216门课程，230，263个视频，358，265个习题，637，572个细粒度的概念和超过2.96亿的3，330，294个学生的原始行为数据，用于支持MOOC中自适应学习的研究课题。
+MOOCCubeX由清华大学知识工程实验室维护，并得到中国最大的MOOC网站之一[学堂在线](www.xuetangx.com)的支持。本资源库包括4,216门课程，230,263个视频，358,265个习题，637,572个细粒度的概念和超过2.96亿的3,330,294个学生的原始行为数据，用于支持MOOC中自适应学习的研究课题。
 
 我们将MOOCCubeX的贡献总结如下。
 
@@ -15,6 +15,7 @@ MOOCCubeX由清华大学知识实验室维护，并得到中国最大的MOOC网�
 * 完善了数学、心理学和计算机科学的先后修关系！!
 * 我们的论文已提交给CIKM2021 resource track！!
 * MOOCCubeX数据集生成器工具包已被更新！！
+* 我们的论文已录用于CIKM2021 resource track！!
 
 ## 资源结构
 
@@ -96,4 +97,20 @@ MOOCCubeX的概念和行为数据有一些统计上的特点。
 
 ## 参考文献
 
-* 待提交到arxiv。
+```
+@inproceedings{10.1145/3459637.3482010,
+author = {Yu, Jifan and Wang, Yuquan and Zhong, Qingyang and Luo, Gan and Mao, Yiming and Sun, Kai and Feng, Wenzheng and Xu, Wei and Cao, Shulin and Zeng, Kaisheng and Yao, Zijun and Hou, Lei and Lin, Yankai and Li, Peng and Zhou, Jie and Xu, Bin and Li, Juanzi and Tang, Jie and Sun, Maosong},
+title = {MOOCCubeX: A Large Knowledge-Centered Repository for Adaptive Learning in MOOCs},
+year = {2021},
+isbn = {9781450384469},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3459637.3482010},
+doi = {10.1145/3459637.3482010},
+pages = {4643–4652},
+numpages = {10},
+keywords = {open-access datasets, concept extraction, adaptive learning},
+location = {Virtual Event, Queensland, Australia},
+series = {CIKM '21}
+}
+```
