@@ -44,7 +44,7 @@ The student behavioral data (more details are introduced in [user.md](./docs/use
 | Student Profile       | User id, school, course register order, etc. | [entities/user.json](https://lfs.aminer.cn/misc/moocdata/data/mooccube2/entities/user.json) | 770M |
 | Video Watching        | The speed and jumps of time of users watching video. | [relations/user-video.json](https://lfs.aminer.cn/misc/moocdata/data/mooccube2/relations/user-video.json) | 3.0G |
 | Exercising            | Users doing exercise problems. | [relations/user-problem.json](https://lfs.aminer.cn/misc/moocdata/data/mooccube2/relations/user-problem.json) | 21G |
-| Comment               | Users' comment on a video or an exercise. | [entities/comment.json](https://lfs.aminer.cn/misc/moocdata/data/mooccube2/entities/user-comment.json) | 2.1G |
+| Comment               | Users' comment on a video or an exercise. | [entities/comment.json](https://lfs.aminer.cn/misc/moocdata/data/mooccube2/entities/comment.json) | 2.1G |
 | Reply                 | Users' replies on comments of other users. | [entities/reply.json](https://lfs.aminer.cn/misc/moocdata/data/mooccube2/entities/reply.json) | 50M |
 | Xiaomu        | User interaction with Xiaomu (the QA bot of XuetangX). | [relations/user-xiaomu.json](https://lfs.aminer.cn/misc/moocdata/data/mooccube2/relations/user-xiaomu.json) | 9.7M |
 

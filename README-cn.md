@@ -44,7 +44,7 @@ MOOCCubeX的数据使用细粒度概念图谱进行组织。其资源在以下�
 | 用户画像       | 包括用户的ID, 学校, 课程注册顺序等等 | [entities/user.json](https://lfs.aminer.cn/misc/moocdata/data/mooccube2/entities/user.json) | 770M |
 | 观看视频        | 用户观看视频的倍速以及跳跃着看的信息 | [relations/user-video.json](https://lfs.aminer.cn/misc/moocdata/data/mooccube2/relations/user-video.json) | 3.0G |
 | 做习题            | 用户做习题中的问题的情况 | [relations/user-problem.json](https://lfs.aminer.cn/misc/moocdata/data/mooccube2/relations/user-problem.json) | 21G |
-| 评论               | 用户对视频或习题的评论 | [entities/comment.json](https://lfs.aminer.cn/misc/moocdata/data/mooccube2/entities/user-comment.json) | 2.1G |
+| 评论               | 用户对视频或习题的评论 | [entities/comment.json](https://lfs.aminer.cn/misc/moocdata/data/mooccube2/entities/comment.json) | 2.1G |
 | 评论回复                 | 用户对其他用户评论的回复 | [entities/reply.json](https://lfs.aminer.cn/misc/moocdata/data/mooccube2/entities/reply.json) | 50M |
 | 小木        | 用户与学堂在线智能问答机器人小木的交互信息 | [relations/user-xiaomu.json](https://lfs.aminer.cn/misc/moocdata/data/mooccube2/relations/user-xiaomu.json) | 9.7M |
 
