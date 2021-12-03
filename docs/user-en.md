@@ -65,6 +65,8 @@ A link table of comments sent by users and comments back.
 | score | score |
 | submit_time | Question time |## relations/user-video.json
 
+## relations/user-video.json
+
 | field | description |
 | ----- | ----------- |
 | user_id | User ID, starting with `U_` |
