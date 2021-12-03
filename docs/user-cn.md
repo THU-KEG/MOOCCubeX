@@ -67,6 +67,8 @@
 | score | 得分 |
 | submit_time | 做题时间 |## relations/user-video.json
 
+## relations/user-video.json
+
 | field | description |
 | ----- | ----------- |
 | user_id | 用户ID，以`U_`开头 |
