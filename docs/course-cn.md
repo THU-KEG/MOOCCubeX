@@ -62,8 +62,8 @@
 | option | 问题的选项 |
 | answer | 问题的答案 |
 | score | 问题的分数 |
-| type | 问题的选项 |
-| typetext | 问题的选项 |
+| type | 问题的题型ID |
+| typetext | 问题的题型 |
 | location | 问题的章节位置 |
 | context_id | 数组，问题相关的leaf_id |
 
