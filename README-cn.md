@@ -97,20 +97,13 @@ MOOCCubeX的概念和行为数据有一些统计上的特点。
 
 ## 参考文献
 
-```
-@inproceedings{10.1145/3459637.3482010,
-author = {Yu, Jifan and Wang, Yuquan and Zhong, Qingyang and Luo, Gan and Mao, Yiming and Sun, Kai and Feng, Wenzheng and Xu, Wei and Cao, Shulin and Zeng, Kaisheng and Yao, Zijun and Hou, Lei and Lin, Yankai and Li, Peng and Zhou, Jie and Xu, Bin and Li, Juanzi and Tang, Jie and Sun, Maosong},
-title = {MOOCCubeX: A Large Knowledge-Centered Repository for Adaptive Learning in MOOCs},
-year = {2021},
-isbn = {9781450384469},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3459637.3482010},
-doi = {10.1145/3459637.3482010},
-pages = {4643–4652},
-numpages = {10},
-keywords = {open-access datasets, concept extraction, adaptive learning},
-location = {Virtual Event, Queensland, Australia},
-series = {CIKM '21}
+```bib
+@inproceedings{yu2021mooccubex,
+  title={{MOOCCubeX}: A Large Knowledge-centered Repository for Adaptive Learning in {MOOCs}},
+  author={Yu, Jifan and Wang, Yuquan and Zhong, Qingyang and Luo, Gan and Mao, Yiming and Sun, Kai and Feng, Wenzheng and Xu, Wei and Cao, Shulin and Zeng, Kaisheng and others},
+  booktitle={Proceedings of the 30th ACM International Conference on Information \& Knowledge Management},
+  pages={4643--4652},
+  year={2021}
 }
 ```
+
